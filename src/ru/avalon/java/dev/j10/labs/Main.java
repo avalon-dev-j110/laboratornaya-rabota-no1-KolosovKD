@@ -2,6 +2,9 @@ package ru.avalon.java.dev.j10.labs;
 
 import ru.avalon.java.dev.j10.labs.models.Person;
 
+/**
+*   Работа завершена
+*/
 public class Main {
 
     /*
