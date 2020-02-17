@@ -1,6 +1,7 @@
 package ru.avalon.java.dev.j10.labs;
 
 import ru.avalon.java.dev.j10.labs.models.Person;
+import ru.avalon.java.dev.j10.labs.models.Building;
 
 /**
 *   Работа завершена
@@ -10,11 +11,18 @@ public class Main {
     /*
      * FIXME(Студент): Измените определение метода так, чтобы он стал точкой входа в приложение.
      */
-    Main() {
+    public static void main(String[] args) {
 
         Person ivanov = null;
         Person smith = null;
-
+        
+        //Создаем объект и кладем в переменную
+        Building myBuilding = new Building("red", 4);
+        //Вызываем метод объекта и кладем возвращенное методом значение в переменную
+        String myBuildingDescription = myBuilding.getBuildingDescription();
+        //Выводим значение в консоль
+        System.out.println(myBuildingDescription);
+        
         /*
          * TODO(Студент): Создайте экземпляры класса 'Person'
          *
